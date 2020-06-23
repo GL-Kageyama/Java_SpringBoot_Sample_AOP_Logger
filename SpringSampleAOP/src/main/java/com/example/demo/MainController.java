@@ -15,20 +15,20 @@ public class MainController {
 	 * @return "Hello World 1" text line
 	 */
 	@RequestMapping("/hello1")
-    public String Hello1() {
+	public String Hello1() {
 
 		return "Hello World 1";
-    }
+	}
 
 	/**
 	 * Function to output "Hello World 2" on the screen
 	 * @return "Hello World 2" text line
 	 */
 	@RequestMapping("/hello2")
-    public String Hello2() {
+	public String Hello2() {
 
-        return "Hello World 2";
-    }
+		return "Hello World 2";
+	}
 
 	/**
 	 * Function to output "Hello World 3" on the screen
@@ -38,9 +38,9 @@ public class MainController {
 	@RequestMapping("/hello3")
 	public String Hello3(){
 
-    	// Zero division error
-    	int zeroError = 1 / 0;
+		// Zero division error
+		int zeroError = 1 / 0;
 
-        return "Hello World 3";
-    }
+		return "Hello World 3";
+	}
 }
