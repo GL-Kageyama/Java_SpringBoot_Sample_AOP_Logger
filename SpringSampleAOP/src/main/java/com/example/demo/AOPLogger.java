@@ -19,44 +19,44 @@ public class AOPLogger {
 	 * Logging Before Method Execution
 	 */
 	@Before("within(com.example.demo.MainController)")
-    public void BeforeTest() {
+	public void BeforeTest() {
 
-        System.out.println("\r\nBefore the method execution.");
-    }
+		System.out.println("\r\nBefore the method execution.");
+	}
 
 	/**
 	 * Logging After Method Execution
 	 */
 	@After("within(com.example.demo.MainController)")
-    public void AfterTest() {
+	public void AfterTest() {
 
-        System.out.println("After the method execution. \r\n");
-    }
+		System.out.println("After the method execution. \r\n");
+	}
 
 	/**
 	 * Logging by interrupt processing
 	 */
 	@Around("execution(* com.example.demo.MainController.Hello2(..))")
-    public void AroundTest() {
+	public void AroundTest() {
 
-        System.out.println("\r\nThe interrupt process was performed. \r\n");
-    }
+		System.out.println("\r\nThe interrupt process was performed. \r\n");
+	}
 
 	/**
 	 * Logging when the method is successfully executed
 	 */
 	@AfterReturning("within(com.example.demo.MainController)")
-    public void AfterReturningTest() {
+	public void AfterReturningTest() {
 
-        System.out.println("The method was executed without problems.");
-    }
+		System.out.println("The method was executed without problems.");
+	}
 
 	/**
 	 * Logging when a method is error
 	 */
 	@AfterThrowing("within(com.example.demo.MainController)")
-    public void AfterThrowingTest() {
+	public void AfterThrowingTest() {
 
-        System.out.println("ERROR : Method encountered a problem at runtime.");
-    }
+		System.out.println("ERROR : Method encountered a problem at runtime.");
+	}
 }
