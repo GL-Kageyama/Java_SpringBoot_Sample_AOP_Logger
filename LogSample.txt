@@ -1,0 +1,44 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m      [2m (v2.3.1.RELEASE)[0;39m
+
+[2m2020-06-23 13:03:40.138[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.e.demo.SpringSampleAopApplication     [0;39m [2m:[0;39m Starting SpringSampleAopApplication on kageyamBookpuro.AirPort with PID 3856 (/Applications/Eclipse_2019-12.app/Contents/workspace/SpringSampleAOP/bin/main started by guiding_design in /Applications/Eclipse_2019-12.app/Contents/workspace/SpringSampleAOP)
+[2m2020-06-23 13:03:40.141[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.e.demo.SpringSampleAopApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-23 13:03:40.176[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-23 13:03:40.176[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-23 13:03:40.936[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-23 13:03:40.942[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-23 13:03:40.943[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-23 13:03:40.990[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-23 13:03:40.991[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 815 ms
+[2m2020-06-23 13:03:41.149[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-23 13:03:41.303[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-23 13:03:41.344[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-23 13:03:41.355[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.e.demo.SpringSampleAopApplication     [0;39m [2m:[0;39m Started SpringSampleAopApplication in 1.436 seconds (JVM running for 2.054)
+[2m2020-06-23 13:03:50.082[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-23 13:03:50.082[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-23 13:03:50.088[0;39m [32m INFO[0;39m [35m3856[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 6 ms
+
+Before the method execution.
+The method was executed without problems.
+After the method execution. 
+
+
+The interrupt process was performed. 
+
+
+Before the method execution.
+ERROR : Method encountered a problem at runtime.
+After the method execution. 
+
+[2m2020-06-23 13:04:00.746[0;39m [31mERROR[0;39m [35m3856[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.example.demo.MainController.Hello3(MainController.java:42) ~[main/:na]
+	at com.example.demo.MainController$$FastClassBySpringCGLIB$$273d6c4f.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
