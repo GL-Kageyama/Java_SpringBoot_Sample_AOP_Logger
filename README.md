@@ -1,6 +1,6 @@
 # Java SpringBoot Sample AOP Logger
 
-This is a basic logger using Spring's AOP(Aspect Oriented Programming).
+This is a basic logger using Spring's Aspect Oriented Programming(AOP).
 
 # Aspect Oriented Programming(AOP)
 
