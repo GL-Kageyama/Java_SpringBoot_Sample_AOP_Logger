@@ -2,10 +2,18 @@
 
 This is a basic logger using Spring's AOP(Aspect Oriented Programming).
 
-# Target Annotation
+# Aspect Oriented Programming(AOP)
+
+The AOP can be divided into core and cross-cutting concerns.
+
+And the logic is simpler and more maintainable.
+
+![AOP_Image](https://user-images.githubusercontent.com/36861752/86082839-b1148800-bad3-11ea-9d9c-1c88b42bb1af.png)
+
+# Test Target Annotation
 @Before, @After, @Around, @AfterReturning, @AfterThrowing
 
-# Procedure
+# Hello1 Case Procedure
 
 1, Project Execution.
 
@@ -15,18 +23,29 @@ This is a basic logger using Spring's AOP(Aspect Oriented Programming).
 
 4, The output of "Hello World 1" to the browser.
 
-5, Access to "http://localhost:8080/hello2".
+![hello1](https://user-images.githubusercontent.com/36861752/86082854-be317700-bad3-11ea-9934-c6cf85a2f235.jpg)
 
-6, A log is output to the console.
+# Hello2 Case Procedure
 
-7, There's no output to the browser.
+1, Project Execution.
 
-8, Access to "http://localhost:8080/hello3".
+2, Access to "http://localhost:8080/hello2".
 
-9, A log is output to the console.
+3, A log is output to the console.
 
-10, The console and browser output an error.
+4, There's no output to the browser.
 
+![hello2](https://user-images.githubusercontent.com/36861752/86082879-cab5cf80-bad3-11ea-9bf5-053f5e3915b9.jpg)
 
+# Hello3 Case Procedure
 
+1, Project Execution.
+
+2, Access to "http://localhost:8080/hello3".
+
+3, A log is output to the console.
+
+4, The console and browser output an error.
+
+![hello3](https://user-images.githubusercontent.com/36861752/86082904-d5706480-bad3-11ea-9c9f-e48bdde7dd15.jpg)
 
